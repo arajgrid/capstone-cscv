@@ -1,0 +1,60 @@
+@import "../../assets/styles/variables";
+.activities-container {
+  background-color: #fff;
+  width: 27%;
+  border-radius: 1rem;
+  border: 1px solid #00000033;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.084);
+}
+
+.activities-box {
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  // max-height: 66rem;
+  max-height: 83.3vh;
+  border-bottom: 1px solid #00000033;
+}
+
+.activities {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  &-heading {
+    font-style: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    text-align: center;
+  }
+}
+
+.notificationIcon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+.filterIcon {
+  height: 2.4rem;
+  width: 2.4rem;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+.alertHeader {
+  border-bottom: $border-grey;
+  display: flex;
+  justify-content: space-between;
+  padding: 2.3rem 3.5rem 1.3rem 2.4rem;
+}
+.zoom {
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 87vh;
+  border-bottom: 1px solid #00000033;
+}
+.zoom2 {
+  width: 22%;
+  border-radius: 1rem;
+  border: 1px solid #00000033;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.084);
+}

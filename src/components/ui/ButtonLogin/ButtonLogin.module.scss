@@ -1,0 +1,25 @@
+.button {
+  width: 100%;
+  padding: 1.2rem 1.6rem;
+  background-color: #ffb800;
+
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.92rem;
+  letter-spacing: 0.05em;
+  text-align: center;
+
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
+
+  &:hover {
+    background-color: #e6961e;
+  }
+
+  &:active {
+    background-color: #d4841a;
+  }
+}

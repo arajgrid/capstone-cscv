@@ -1,0 +1,23 @@
+@import "../../../assets/styles/variables";
+.dashboard {
+  flex-grow: 1;
+  display: flex;
+  gap: 1.3rem;
+  background-color: $color-dashboard;
+  // background-color: #f0f0f0;
+
+  padding: 1.4rem 2rem;
+  &-overview {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    // margin: 0.7rem 0;
+  }
+}
+//////Charts
+.chartContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}

@@ -1,0 +1,42 @@
+.footer {
+  display: flex;
+  justify-content: end;
+  //   background-color: orangered;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.15),
+      rgba(255, 255, 255, 0.15)
+    ),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+
+  padding: 0.3rem 0.5rem;
+  position: relative;
+  margin-top: -5.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.analyticsIcon {
+  height: 2.2rem;
+  width: 2.2rem;
+}
+.analyticsButton {
+  cursor: pointer;
+}
+.zoomIcon {
+  height: 3.6rem;
+  width: 3.6rem;
+}
+//charts
+.charts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &Heading {
+    margin-bottom: 1rem;
+  }
+}
+.chart {
+  border: 1px solid #cccccc;
+  padding: 1rem 1rem 3rem 1rem;
+}

@@ -1,0 +1,8 @@
+@mixin unbuttonize {
+  background-color: transparent;
+  border: none;
+  text-align: inherit;
+  font: inherit;
+  border-radius: 0;
+  appearance: none;
+}

@@ -1,0 +1,31 @@
+@import "../../../assets/styles/mixins";
+.cardContainer {
+  z-index: 1000;
+  // &:hover {
+  //   transform: scale(1.07);
+  //   transition: all 0.2s ease-in-out;
+  // }
+}
+button {
+  @include unbuttonize;
+}
+.card {
+  // transition: background-color 0.4s ease-in, color 0.4s ease-in;
+  transition: all 0.15s ease-in;
+
+  &:hover {
+    transform: scale(1.07);
+    background-color: rgba(0, 0, 0, 0.734) !important;
+
+    .cardText {
+      color: white;
+    }
+  }
+}
+.cardText {
+  font-size: 2rem;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+}

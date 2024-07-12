@@ -1,0 +1,47 @@
+@import "../../assets/styles/mixins";
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  background: #f8f7f5;
+  border-top: 1px solid #e5e5e5;
+  width: 100vw;
+
+  &__logo {
+    display: flex;
+    align-items: center;
+
+    &-icon {
+      width: 40px;
+      height: 40px;
+      margin-right: 1rem;
+    }
+  }
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  &__info {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: gray;
+
+    &-item {
+      margin: 0 0.5rem;
+    }
+
+    &-divider {
+      margin: 0 2rem;
+    }
+  }
+
+  &__help-button {
+    @include unbuttonize;
+    color: gray;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,41 @@
+@import "../../assets/styles/variables";
+.side-nav__item {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 2.4rem;
+  display: flex;
+  align-items: center;
+  // gap: 1.5rem;
+  color: #2a2a29;
+  padding: 1.8rem;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+.side-nav__label {
+  margin-left: 1.5rem;
+}
+.side-nav__icon {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+}
+a.active {
+  background-color: $color-nav-item;
+  border-right: 2.5px solid $color-nav-border;
+}
+.iconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.iconBox {
+  display: flex;
+  align-items: center;
+}

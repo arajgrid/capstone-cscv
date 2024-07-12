@@ -1,0 +1,21 @@
+@import "../../../assets/styles/mixins";
+.cameraButton {
+  @include unbuttonize;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: #000000d9;
+  cursor: pointer;
+}
+.cameraIcon {
+  height: 2rem;
+  width: 2rem;
+}
+.active {
+  border-bottom: 1px solid #eb932c;
+  color: #eb932c;
+}

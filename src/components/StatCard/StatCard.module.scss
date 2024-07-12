@@ -1,0 +1,65 @@
+@import "../../assets/styles/variables";
+.stats {
+  flex-grow: 1;
+  display: flex;
+
+  padding: 2.5rem 2.8rem 1.2rem 2.8rem;
+  border: 1px solid #00000033;
+  border-radius: 0.8rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.158);
+  backdrop-filter: blur(15px);
+  transition: all 300ms;
+  min-height: 15rem;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.17);
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: auto;
+  }
+  &__icon_yellow {
+    height: 4.9rem;
+    width: 4.9rem;
+    color: $color-nav-border;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-left: 3rem;
+  }
+  &__title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: rgba(0, 0, 0, 0.45);
+  }
+  &__description {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 2.8rem;
+    line-height: 4rem;
+    // color: rgba(0, 0, 0, 0.85);
+  }
+}
+.bad {
+  color: #ff4c4c;
+}
+.ok {
+  color: #ffa500;
+}
+.good {
+  color: #9acd32;
+}
+.excellent {
+  color: #32cd32;
+}
+
+//Progress
+.progress {
+  margin-bottom: -5rem;
+}

@@ -1,0 +1,7 @@
+.venv/
+.idea/
+path/
+.mvn/
+target/
+backend/FramesProductionService/src/main/resources/helmet.mp4
+backend/FramesProductionService/src/main/resources/forklift-final.mp4
